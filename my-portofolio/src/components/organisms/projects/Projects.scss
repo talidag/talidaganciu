@@ -1,0 +1,20 @@
+@import "../../../scss/foundation/variables";
+
+.projects {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:20px;
+}
+
+.projects__wrap {
+    padding-top: 1rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $white;
+    font-family: $space-grotesk;
+}

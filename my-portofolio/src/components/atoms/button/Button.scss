@@ -1,0 +1,17 @@
+@import "../../../scss/foundation/variables";
+
+.contact {
+}
+
+.contact__btn {
+    width: 120px;
+    height: 38px;
+    color:$white;
+    background: $black;
+    border:none;
+    font-family: $space-grotesk;
+    letter-spacing: 2.3px;
+    font-weight: bold;
+    line-height: 26px;
+    border-bottom: 2px solid $green;
+}

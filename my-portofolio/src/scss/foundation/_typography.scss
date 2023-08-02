@@ -1,0 +1,41 @@
+// IMPORTS
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+// FONT FAMILIES
+
+$space-grotesk: 'Space Grotesk';
+
+// FONT WEIGHTS
+
+$thin:100;
+$extraLight:200;
+$light:300;
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$extrabold:800;
+$boldest:900;
+
+// FONT SIZES
+
+$xl: 5.5rem;
+$l: 3rem;
+$m: 0.875rem;
+$s: 1.125rem;
+
+// AUXILIARY VARIABLES
+
+$xl-lspace: -0.15rem;
+$l-lspace: -0.1rem;
+
+// de declarat si line height - de modificat in rem?
+
+$xl-lheight: 88px;
+$l-lheight: 56px;
+$m-lheight: 32px;
+$s-lheight: 28px;
+
+
+

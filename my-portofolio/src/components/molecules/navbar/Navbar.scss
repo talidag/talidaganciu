@@ -1,0 +1,58 @@
+@import '../../../scss/foundation/variables';
+
+.nav {
+
+    @media (max-width: $sm) {
+        flex-direction: column;
+
+        &__name {
+            font-size: 2rem;
+            font-weight: bold;
+            padding-top:10px;
+           
+        }
+
+        &__item {
+            width: 25px;
+        }
+        
+    }  
+
+
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:$black;
+    color:$white;
+    font-family: $space-grotesk;
+    gap:10px;
+    
+    
+
+    &__items {
+        display: flex;
+        gap:25px;
+        padding-bottom: 10px;
+    }
+
+    &__item {
+        cursor: pointer;
+    }
+
+    
+
+        
+}
+
+
+
+.nav__name {
+    color:white;
+    &__link:visited {
+        text-decoration: none;
+        color:white;
+    }
+    letter-spacing: -0.33px
+}
+

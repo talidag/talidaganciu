@@ -1,0 +1,14 @@
+@import "../../../scss/foundation/variables";
+
+.project {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    font-family: $space-grotesk;
+    gap:10px;
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
